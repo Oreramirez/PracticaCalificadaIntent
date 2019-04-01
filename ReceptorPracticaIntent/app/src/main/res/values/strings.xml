@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ReceptorPracticaIntent</string>
+    <string name="title_home">Bienvenido</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_notifications">Notificaciones</string>
+</resources>
