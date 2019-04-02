@@ -39,32 +39,32 @@ public class MainActivity extends AppCompatActivity {
 
                     Toast t = Toast.makeText(getApplicationContext(),"Pedido del cliente "+nombre+" agregado", Toast.LENGTH_SHORT);
                     t.show();
-                    sendIntent.putExtra(Intent.EXTRA_TEXT,checkBox1.getText().toString());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT,"Pedido del cliente: "+nombre+"\n"+checkBox1.getText().toString());
                 }
                 else if (checkBox2.isChecked())
                 {
                     Toast t = Toast.makeText(getApplicationContext(),"Pedido del cliente "+nombre+" agregado", Toast.LENGTH_SHORT);
                     t.show();
-                    sendIntent.putExtra(Intent.EXTRA_TEXT,checkBox2.getText().toString());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT,"Pedido del cliente: "+nombre+"\n"+checkBox2.getText().toString());
                     //ckb_opcion2.setChecked(false);
                 }
                 else if (checkBox3.isChecked())
                 {
                     Toast t = Toast.makeText(getApplicationContext(),"Pedido del cliente "+nombre+" agregado", Toast.LENGTH_SHORT);
                     t.show();
-                    sendIntent.putExtra(Intent.EXTRA_TEXT,checkBox3.getText().toString());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT,"Pedido del cliente: "+nombre+"\n"+checkBox3.getText().toString());
                 }
                 else if (checkBox4.isChecked())
                 {
                     Toast t = Toast.makeText(getApplicationContext(),"Pedido del cliente "+nombre+" agregado", Toast.LENGTH_SHORT);
                     t.show();
-                    sendIntent.putExtra(Intent.EXTRA_TEXT,checkBox4.getText().toString());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT,"Pedido del cliente: "+nombre+"\n"+checkBox4.getText().toString());
                 }
                 else if (checkBox5.isChecked())
                 {
                     Toast t = Toast.makeText(getApplicationContext(),"Pedido del cliente "+nombre+" agregado", Toast.LENGTH_SHORT);
                     t.show();
-                    sendIntent.putExtra(Intent.EXTRA_TEXT,checkBox5.getText().toString());
+                    sendIntent.putExtra(Intent.EXTRA_TEXT,"Pedido del cliente: "+nombre+"\n"+checkBox5.getText().toString());
                 }
 
                 sendIntent.setType("text/plain");
